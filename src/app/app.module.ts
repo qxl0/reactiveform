@@ -12,9 +12,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
 import { NestedFormComponent } from './nested-form/nested-form.component';
+import { ArrayFormComponentComponent } from './array-form-component/array-form-component.component';
 
 @NgModule({
-  declarations: [AppComponent, BasicFormComponent, NestedFormComponent],
+  declarations: [AppComponent, BasicFormComponent, NestedFormComponent, ArrayFormComponentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
